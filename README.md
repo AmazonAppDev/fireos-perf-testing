@@ -67,30 +67,26 @@ You can customize the following parameters for the tests to be excuted modifying
 - Device reboot option (`reboot_device`)
 
 
-### Understanding Tp50, Tp90, and Average
+## 📚 Understanding Tp50, Tp90, and Average
 
-**Tp50 (50th Percentile, Median):**
+>**Tp50 (50th Percentile, Median):**
+> Definition: The value below which 50% of the data points fall.
+> Usage: Indicates the median performance, less affected by outliers.
+> Example: If Tp50 of response times is 200 ms, 50% of the responses are 200 ms or faster.
 
-    Definition: The value below which 50% of the data points fall.
-    Usage: Indicates the median performance, less affected by outliers.
-    Example: If Tp50 of response times is 200 ms, 50% of the responses are 200 ms or faster.
+>**Tp90 (90th Percentile):**
+> Definition: The value below which 90% of the data points fall.
+> Usage: Highlights the upper range of typical performance, showing that most responses are this fast or faster.
+> Example: If Tp90 is 500 ms, 90% of the responses are 500 ms or faster.
 
-**Tp90 (90th Percentile):**
-
-    Definition: The value below which 90% of the data points fall.
-    Usage: Highlights the upper range of typical performance, showing that most responses are this fast or faster.
-    Example: If Tp90 is 500 ms, 90% of the responses are 500 ms or faster.
-
-**Average (Mean):**
-
-    Definition: The sum of all values divided by the number of values.
-    Usage: Gives a general sense of overall performance but can be skewed by outliers.
-    Example: If response times are 100 ms, 200 ms, and 1000 ms, the average is 433 ms.
+>**Average (Mean):**
+> Definition: The sum of all values divided by the number of values.
+> Usage: Gives a general sense of overall performance but can be skewed by outliers.
+> Example: If response times are 100 ms, 200 ms, and 1000 ms, the average is 433 ms.
 
 **Comparison:**
-
-    Tp50 and Tp90: Less affected by extreme values, providing a clearer picture of typical and upper-range performance.
-    Average: Can be skewed by outliers, giving a less accurate picture of typical performance.
+Tp50 and Tp90: Less affected by extreme values, providing a clearer picture of typical and upper-range performance.
+Average: Can be skewed by outliers, giving a less accurate picture of typical performance.
 
 ## Get support
 If you found a bug or want to suggest a new [feature/use case/sample], please [file an issue](../../issues).
