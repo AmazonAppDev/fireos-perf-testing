@@ -21,12 +21,12 @@ And remember to disable the screensaver on the Test Device.
 
 1. Clone the repository:
 ```
-git clone https://github.com/amazonappdev/FOSTTIDPerfTesting.git
+git clone https://github.com/amazonappdev/fireos-perf-testing.git
 ```
 
 2. Navigate to the project directory:
 ```
-cd FOSTTIDPerfTesting
+cd fireos-perf-testing
 ```
 
 3. Build the project and create the JAR:
