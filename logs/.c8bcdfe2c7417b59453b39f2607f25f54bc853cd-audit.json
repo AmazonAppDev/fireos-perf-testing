@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/laquigi/Projects/repositories/github/FOSTTIDPerfTesting/logs/.c8bcdfe2c7417b59453b39f2607f25f54bc853cd-audit.json",
+    "files": [
+        {
+            "date": 1727782929205,
+            "name": "/Users/laquigi/Projects/repositories/github/FOSTTIDPerfTesting/logs/keplerCliNative-2024-10-01.log",
+            "hash": "83fd56de40a3d95c1dbdede9a984e93a"
+        }
+    ]
+}
