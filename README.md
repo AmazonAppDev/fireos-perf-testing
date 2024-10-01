@@ -1,4 +1,4 @@
-# 📊🚀 FOS Performance Testing - First Frame KPI
+# 📊🚀 FireOS Performance Testing - First Frame KPI
 
 A performance testing framework for measuring First Frame (Time to Initial Display) values of Fire OS apps on Amazon Fire tablets and Fire TVs.
 
