@@ -12,6 +12,7 @@ A performance testing framework for measuring First Frame (Time to Initial Displ
 
 Before you begin, ensure you have the following installed:
 - [Java 8 or above](https://www.java.com/)
+- [Java Development Kit 17 or above](https://www.oracle.com/java/technologies/downloads/)
 - [Android SDK (API Level 34)](https://developer.android.com/studio)
 - [Maven](https://maven.apache.org/)
 
