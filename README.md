@@ -46,7 +46,7 @@ mvn clean install
     ```
     java -jar PerformanceKpi-jar.jar <KpiType> <DSN(DeviceSerialNumber)>
     ```
-    Where <KpiType> can be ```latency```(For both cool and warm launch Execution), ```cool```, ```warm```
+    Where the KpiType can be ```latency```(For both cool and warm launch Execution), ```cool```, ```warm```
     and <DSN(DeviceSerialNumber)> is the name of your testing device listed executing ```adb devices```
 5. Wait for the completion of the tests.
 
